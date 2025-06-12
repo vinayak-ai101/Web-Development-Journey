@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Now</title>
+  </head>
+  <body>
+    <h1>Registration Form:</h1>
+    <form action="">
+      <label for="fname">First Name:</label>
+      <input id="fname" type="text" minlength="5" maxlength="12" required />
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" minlength="5" maxlength="12" required />
+      <br /><br />
+      <label for="age">Age<input type="number" id="age" required /></label>
+      <br /><br />
+      <label for="email">Email:
+        <input type="email" required id="email" />
+      </label>
+      <br /><br />
+      <label for="Joinng">Date of Joinng:</label>
+      <input type="date" id="Joinng" required />
+      <br /><br />
+      <label for="password">Password</label>
+      <input type="password" required id="password" />
+      <br /><br />
+      <label for="gender">Gender:</label>
+      <input type="radio" name="gender" value="Male" id="male" required /><label
+        for="male"
+        >Male</label>
+      <input type="radio" name="gender" value="Female" id="female" />
+      <label for="female">Female</label>
+      <p>Enter your Shirt Size:</p>
+      <label for="small">
+        <input type="radio" id="small" name="size" value="Small" required/> Small
+      </label>
+      <label for="large">
+        <input type="radio" id="large" name="size" value="Large" /> Large
+      </label>
+      <label for="x-large">
+        <input type="radio" id="x-large" name="size" value="Extra Large" />
+        Extra Large
+      </label>
+
+      <br><br>
+        <p>Choose the known Languges:</p>
+      <label for="english">
+        <input type="checkbox" id="english" name="Languges" required checked value="english"/> English
+      </label>
+      <label for="arbaic">
+        <input type="checkbox" id="arbaic" name="Languges" value="arbaic" /> Arbaic
+      </label>
+      <label for="hindi">
+        <input type="checkbox" id="hindi" name="Languges" value="hindi" /> Hindi
+      </label>
+      <label for="Telugu">
+        <input type="checkbox" id="Telugu" name="Languges" value="telugu" />
+        Telugu
+      </label>
+      
+      <br><br>
+      <label for="color">Choose a color:
+        <input type="color" id="color" required>
+      </label>
+      <br><br>
+      <label for="paymentoptions">Please select the payment option:
+        <select name="payment" id="paymentoptions">
+            <!-- <option value="select">Select</option> -->
+             <option></option>
+            <option value="gpay">G-pay</option>
+            <option value="phonepay">Phonepay</option>
+            <option value="Credit card">Credit card</option>
+            <option value="cod">COD</option>
+        
+        </select>
+      </label>
+      <br><br>
+            <label for="feedback">Please Provide the feedback:</label>
+            <textarea id="feedback" rows="15" cols="101" placeholder="Please enter your comment"></textarea>
+        <br><br>
+        <input type="reset" value="Clear all"> 
+        <!-- <br><br> -->
+        <input type="submit" value="Sumbit Now">
+
+    </form>
+  </body>
+</html>
+
